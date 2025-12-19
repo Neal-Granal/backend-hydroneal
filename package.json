@@ -1,7 +1,7 @@
 {
   "name": "hydroneal-backend",
   "version": "1.0.0",
-  "description": "Backend IA pour HydroNeal",
+  "description": "Backend simple pour HydroNeal",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,7 +9,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2",
+    "express": "^4.18.2",
     "@google/generative-ai": "^0.11.1"
   },
   "engines": {
